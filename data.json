@@ -3,13 +3,11 @@
   "autor": "DaBoss",
   "fuente": "casasenventaypisosalquiler.es (precio y enlace en HTML plano, verificados)",
   "criterios": {
-    "radio_min_coche": 30,
-    "centro": "Roda de Barà (Tarragona)",
-    "presupuesto_max_eur_mes": 1000,
-    "tipos": ["casa", "chalet", "adosado"],
+    "radio_min_coche": 30, "centro": "Roda de Barà (Tarragona)",
+    "presupuesto_max_eur_mes": 1000, "tipos": ["casa", "chalet", "adosado"],
     "excluir": ["pisos/apartamentos", "temporada/vacacional", ">1000 eur/mes", "cuchitril", "lujo"]
   },
-  "verificacion": "Precio mensual exacto y enlace directo a la propiedad (no listado). Fotos revisadas una a una: todas decentes, ninguna cuchitril ni lujo.",
+  "nota_resultados": "En fuentes con datos exactos solo hay 4 casas de alquiler FIJO <=1000 eur/mes en el radio. Las otras 4 de la tanda anterior eran de temporada (uso turistico) y se descartan.",
   "candidatas": [
     {"n":1,"pueblo":"Roda de Barà","titulo":"Casa de 2 habitaciones","hab":2,"m2":65,"precio_eur_mes":900,
      "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/3c8e8e16a7df1db3392c3bca9c333acf.jpg",
@@ -17,23 +15,11 @@
     {"n":2,"pueblo":"Roda de Barà","titulo":"Casa de 2 habitaciones","hab":2,"m2":90,"precio_eur_mes":950,
      "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/16b4c0b9fd7c5e0ab7485459cd085dc0.jpg",
      "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-cataluna-tarragona/1369160"},
-    {"n":3,"pueblo":"Torredembarra (Clarà)","titulo":"Casa de 3 habitaciones","hab":3,"m2":100,"precio_eur_mes":850,
-     "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/a98ac4b7de44f8ab1b56d3accd71de66/3bde60d3f4c3a96555b257b23f3f76a6.jpg",
-     "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-comaruga-platja-el-vendrell/1384041"},
-    {"n":4,"pueblo":"Torredembarra (Babilonia)","titulo":"Casa de 4 habitaciones","hab":4,"m2":83,"precio_eur_mes":990,
-     "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/8f6db6601446e973541f63bc7379d01f/aba6404f7046000b7844e66ff6134ff1.jpg",
-     "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/4-hab-el-tancat-mas-den-gual-el-vendrell/1384060"},
-    {"n":5,"pueblo":"Torredembarra (Clarà)","titulo":"Casa de 2 habitaciones","hab":2,"m2":160,"precio_eur_mes":767,
+    {"n":3,"pueblo":"Torredembarra (Clarà)","titulo":"Casa de 2 habitaciones","hab":2,"m2":160,"precio_eur_mes":767,
      "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/4e4480d39b8754dfc48738608e5f550a.jpg",
      "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1371646"},
-    {"n":6,"pueblo":"La Pobla de Montornès","titulo":"Casa de 3 habitaciones","hab":3,"m2":109,"precio_eur_mes":900,
+    {"n":4,"pueblo":"La Pobla de Montornès","titulo":"Casa de 3 habitaciones","hab":3,"m2":109,"precio_eur_mes":900,
      "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/3dd928edf3102409c212d5d77383b9cb.jpg",
-     "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1370252"},
-    {"n":7,"pueblo":"Torredembarra (Els Munts)","titulo":"Casa de 3 habitaciones","hab":3,"m2":100,"precio_eur_mes":900,
-     "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/6a6a24f3da0f05b1f2d25a5f879f6718/670f6ebd049bd20aa491aa459d41b485.jpg",
-     "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-comaruga-platja-el-vendrell/1384090"},
-    {"n":8,"pueblo":"Altafulla","titulo":"Casa de 3 habitaciones","hab":3,"m2":120,"precio_eur_mes":950,
-     "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/a46ac1834de2fcc8b984bb1ac19b946c/364d3d7f5b647455c9d6a8e56c841510.jpg",
-     "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1383958"}
+     "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1370252"}
   ]
 }
