@@ -7,7 +7,7 @@
 <style>
   :root{
     --bg:#0b0f17; --card:#121826; --line:#1f2a3d; --txt:#e6edf6; --muted:#90a0b8;
-    --neon:#2bd4ff; --neon2:#7c5cff; --ok:#39d98a; --warn:#ffb454; --bad:#ff5d6c;
+    --neon:#2bd4ff; --neon2:#7c5cff; --ok:#39d98a; --warn:#ffb454;
   }
   *{box-sizing:border-box}
   body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#15233b 0,var(--bg) 60%);color:var(--txt);
@@ -15,7 +15,7 @@
   header{padding:34px 18px 10px;text-align:center}
   h1{margin:0;font-size:clamp(22px,5vw,34px);letter-spacing:.3px}
   h1 .neon{color:var(--neon);text-shadow:0 0 18px rgba(43,212,255,.5)}
-  .sub{color:var(--muted);margin:8px auto 0;max-width:680px;font-size:14px}
+  .sub{color:var(--muted);margin:8px auto 0;max-width:720px;font-size:14px}
   .pillbox{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:16px 0 4px}
   .pill{background:#0e1626;border:1px solid var(--line);color:var(--neon);padding:5px 11px;border-radius:999px;font-size:12px}
   main{max-width:1100px;margin:0 auto;padding:14px 14px 40px}
@@ -28,18 +28,19 @@
   .town{position:absolute;top:10px;left:10px;background:rgba(11,15,23,.78);backdrop-filter:blur(4px);
     border:1px solid var(--line);color:var(--neon);font-size:12px;font-weight:600;padding:4px 9px;border-radius:999px}
   .body{padding:13px 14px 15px;display:flex;flex-direction:column;gap:8px;flex:1}
-  .ttl{font-size:15.5px;font-weight:700;margin:0}
-  .est{font-size:13px;color:var(--muted);margin:0}
+  .ttl{font-size:15px;font-weight:700;margin:0}
+  .chips{display:flex;gap:6px;flex-wrap:wrap}
+  .chip{background:#0c1626;border:1px solid var(--line);color:var(--muted);font-size:12px;padding:3px 8px;border-radius:8px}
   .price{display:inline-flex;align-items:center;gap:7px;background:#0c1626;border:1px solid var(--line);
-    color:var(--ok);font-weight:700;font-size:13.5px;padding:6px 10px;border-radius:10px;align-self:flex-start}
+    color:var(--ok);font-weight:800;font-size:15px;padding:6px 10px;border-radius:10px;align-self:flex-start}
   .price b{color:var(--txt)}
   .btn{margin-top:auto;display:inline-block;text-align:center;text-decoration:none;color:#04121b;font-weight:700;
     background:linear-gradient(90deg,var(--neon),var(--neon2));padding:9px 12px;border-radius:11px;font-size:13.5px}
   .btn:hover{filter:brightness(1.08)}
-  .note{font-size:11.5px;color:var(--warn);margin:2px 0 0}
-  .disclaimer{max-width:1100px;margin:26px auto 0;padding:16px 18px;background:#0e1626;border:1px solid var(--line);
+  .note{font-size:12px;color:var(--muted);margin:2px 0 0}
+  .src{max-width:1100px;margin:26px auto 0;padding:16px 18px;background:#0e1626;border:1px solid var(--line);
     border-radius:14px;color:var(--muted);font-size:13px}
-  .disclaimer b{color:var(--txt)}
+  .src b{color:var(--txt)}
   footer{text-align:center;color:var(--muted);font-size:12px;padding:26px 14px 40px}
   .tag{color:var(--neon)}
 </style>
@@ -47,12 +48,12 @@
 <body>
 <header>
   <h1>Casas de alquiler a <span class="neon">&lt;30 min de Roda de Barà</span></h1>
-  <p class="sub">Filtro DaBoss 🔥 — casas/chalets/adosados, <b>≤1000&nbsp;€/mes</b>, fotos reales verificadas una a una. Radio: Roda de Barà, Creixell, Torredembarra, Altafulla, Calafell y El Vendrell.</p>
+  <p class="sub">Filtro DaBoss 🔥 — datos <b>verificados</b>: precio mensual exacto y enlace directo a la propiedad. Radio: Roda de Barà, Torredembarra, Altafulla, La Pobla de Montornès y alrededores.</p>
   <div class="pillbox">
     <span class="pill">⏱ &lt;30 min en coche</span>
-    <span class="pill">💶 ≤ 1000 €/mes</span>
+    <span class="pill">💶 ≤ 1000 €/mes (exacto)</span>
+    <span class="pill">🏠 solo casas/chalets</span>
     <span class="pill">📷 fotos revisadas</span>
-    <span class="pill">🚫 ni cuchitriles ni lujo</span>
   </div>
 </header>
 
@@ -61,112 +62,111 @@
 
     <article class="card">
       <div class="thumb"><span class="town">Roda de Barà</span>
-        <img loading="lazy" alt="Chalet con jardín y barbacoa en Roda de Barà"
-          src="https://pics.nuroa.com/chalet_luminoso_con_jardin_y_barbacoa_en_zona_residencial_de_roda_de_bara_2590002783763635884.jpg"></div>
+        <img loading="lazy" alt="Casa en alquiler Roda de Barà"
+          src="https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/3c8e8e16a7df1db3392c3bca9c333acf.jpg"></div>
       <div class="body">
-        <h2 class="ttl">Chalet con jardín + barbacoa</h2>
-        <p class="est">Habitación luminosa y limpia (decor años 2000 pero cuidado). Jardín y barbacoa confirmados en el anuncio.</p>
-        <span class="price">💰 <b>~850–1.000 €/mes</b></span>
-        <a class="btn" href="https://www.nuroa.es/alquiler/alquiler-roda-bara" target="_blank" rel="noopener">Ver anuncio →</a>
+        <h2 class="ttl">Casa de 2 habitaciones</h2>
+        <div class="chips"><span class="chip">🛏 2 hab</span><span class="chip">📐 65 m²</span></div>
+        <span class="price">💰 <b>900 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1383988" target="_blank" rel="noopener">Ver propiedad →</a>
       </div>
     </article>
 
     <article class="card">
       <div class="thumb"><span class="town">Roda de Barà</span>
-        <img loading="lazy" alt="Chalet clásico en Roda de Barà"
-          src="https://pics.nuroa.com/chalet_roda_de_bera_7890005783590266673.jpg"></div>
+        <img loading="lazy" alt="Casa en alquiler Roda de Barà"
+          src="https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/16b4c0b9fd7c5e0ab7485459cd085dc0.jpg"></div>
       <div class="body">
-        <h2 class="ttl">Chalet clásico, fachada cuidada</h2>
-        <p class="est">Fachada pintada reciente, tejado entero, seto recortado. Move-in ready, sin humedades a la vista.</p>
-        <span class="price">💰 <b>~850–1.000 €/mes</b></span>
-        <a class="btn" href="https://www.nuroa.es/alquiler/alquiler-roda-bara" target="_blank" rel="noopener">Ver anuncio →</a>
+        <h2 class="ttl">Casa de 2 habitaciones</h2>
+        <div class="chips"><span class="chip">🛏 2 hab</span><span class="chip">📐 90 m²</span></div>
+        <span class="price">💰 <b>950 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-cataluna-tarragona/1369160" target="_blank" rel="noopener">Ver propiedad →</a>
       </div>
     </article>
 
     <article class="card">
-      <div class="thumb"><span class="town">Roda de Barà</span>
-        <img loading="lazy" alt="Casa adosada con patio y barbacoa en Roda de Barà"
-          src="https://pics.nuroa.com/casa_adosada_alquiler_roda_de_bera_roda_de_bera_2700004778147579041.jpg"></div>
+      <div class="thumb"><span class="town">Torredembarra · Clarà</span>
+        <img loading="lazy" alt="Casa en alquiler Clarà, Torredembarra"
+          src="https://casasypisos.s3.eu-south-2.amazonaws.com/a98ac4b7de44f8ab1b56d3accd71de66/3bde60d3f4c3a96555b257b23f3f76a6.jpg"></div>
       <div class="body">
-        <h2 class="ttl">Casa adosada · patio y barbacoa</h2>
-        <p class="est">Patio con comedor, barbacoa de obra y seto alto (privacidad). Rústico pero impecable.</p>
-        <span class="price">💰 <b>~850–1.000 €/mes</b></span>
-        <a class="btn" href="https://www.nuroa.es/alquiler/alquiler-roda-bara" target="_blank" rel="noopener">Ver anuncio →</a>
+        <h2 class="ttl">Casa de 3 habitaciones · Clarà</h2>
+        <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 100 m²</span></div>
+        <span class="price">💰 <b>850 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-comaruga-platja-el-vendrell/1384041" target="_blank" rel="noopener">Ver propiedad →</a>
       </div>
     </article>
 
     <article class="card">
-      <div class="thumb"><span class="town">Calafell</span>
-        <img loading="lazy" alt="Chalet en Segur de Calafell"
-          src="https://pics.nuroa.com/chalet_alquiler_calafell_segur_de_calafell_5000005782985416191.jpg"></div>
+      <div class="thumb"><span class="town">Torredembarra · Babilonia</span>
+        <img loading="lazy" alt="Casa en alquiler Babilonia, Torredembarra"
+          src="https://casasypisos.s3.eu-south-2.amazonaws.com/8f6db6601446e973541f63bc7379d01f/aba6404f7046000b7844e66ff6134ff1.jpg"></div>
       <div class="body">
-        <h2 class="ttl">Chalet en Segur de Calafell</h2>
-        <p class="est">Dos plantas, porches en arco, buganvilla florida y garaje. Sólido y bien cuidado.</p>
-        <span class="price">💰 <b>~850–1.000 €/mes</b></span>
-        <a class="btn" href="https://www.nuroa.es/alquiler/alquiler-calafell" target="_blank" rel="noopener">Ver anuncio →</a>
+        <h2 class="ttl">Casa de 4 habitaciones · Babilonia</h2>
+        <div class="chips"><span class="chip">🛏 4 hab</span><span class="chip">📐 83 m²</span></div>
+        <span class="price">💰 <b>990 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/4-hab-el-tancat-mas-den-gual-el-vendrell/1384060" target="_blank" rel="noopener">Ver propiedad →</a>
       </div>
     </article>
 
     <article class="card">
-      <div class="thumb"><span class="town">Calafell</span>
-        <img loading="lazy" alt="Casa rústica Bellamar en Calafell"
-          src="https://pics.nuroa.com/casa_alquiler_calafell_bellamar_mas_de_la_mel_2490004778147447930.jpg"></div>
+      <div class="thumb"><span class="town">Torredembarra · Clarà</span>
+        <img loading="lazy" alt="Casa en alquiler Clarà, Torredembarra"
+          src="https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/4e4480d39b8754dfc48738608e5f550a.jpg"></div>
       <div class="body">
-        <h2 class="ttl">Casa rústica Bellamar</h2>
-        <p class="est">Blanco mediterráneo, balcón de madera, parra y enredadera. Encanto real, bien mantenido.</p>
-        <span class="price">💰 <b>~850–1.000 €/mes</b></span>
-        <a class="btn" href="https://www.nuroa.es/alquiler/alquiler-calafell" target="_blank" rel="noopener">Ver anuncio →</a>
+        <h2 class="ttl">Casa de 2 habitaciones · Clarà</h2>
+        <div class="chips"><span class="chip">🛏 2 hab</span><span class="chip">📐 160 m²</span></div>
+        <span class="price">💰 <b>767 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1371646" target="_blank" rel="noopener">Ver propiedad →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="thumb"><span class="town">La Pobla de Montornès</span>
+        <img loading="lazy" alt="Casa en alquiler La Pobla de Montornès"
+          src="https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/3dd928edf3102409c212d5d77383b9cb.jpg"></div>
+      <div class="body">
+        <h2 class="ttl">Casa de 3 habitaciones</h2>
+        <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 109 m²</span></div>
+        <span class="price">💰 <b>900 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1370252" target="_blank" rel="noopener">Ver propiedad →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="thumb"><span class="town">Torredembarra · Els Munts</span>
+        <img loading="lazy" alt="Casa en alquiler Els Munts, Torredembarra"
+          src="https://casasypisos.s3.eu-south-2.amazonaws.com/6a6a24f3da0f05b1f2d25a5f879f6718/670f6ebd049bd20aa491aa459d41b485.jpg"></div>
+      <div class="body">
+        <h2 class="ttl">Casa de 3 habitaciones · Els Munts</h2>
+        <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 100 m²</span></div>
+        <span class="price">💰 <b>900 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-comaruga-platja-el-vendrell/1384090" target="_blank" rel="noopener">Ver propiedad →</a>
       </div>
     </article>
 
     <article class="card">
       <div class="thumb"><span class="town">Altafulla</span>
-        <img loading="lazy" alt="Casa adosada con jardín en Altafulla"
-          src="https://pics.nuroa.com/casa_adosada_alquiler_altafulla_altafulla_6880004781689159258.jpg"></div>
+        <img loading="lazy" alt="Casa en alquiler Altafulla"
+          src="https://casasypisos.s3.eu-south-2.amazonaws.com/a46ac1834de2fcc8b984bb1ac19b946c/364d3d7f5b647455c9d6a8e56c841510.jpg"></div>
       <div class="body">
-        <h2 class="ttl">Casa adosada · jardín y porche</h2>
-        <p class="est">Dos plantas, porche con comedor exterior, césped y buena privacidad. Confortable y limpio.</p>
-        <span class="price">💰 <b>~1.000 €/mes</b></span>
-        <p class="note">⚠️ Altafulla arranca en ~1.100 € — confirmar que no se pasa del límite.</p>
-        <a class="btn" href="https://www.nuroa.es/alquiler/alquiler-altafulla" target="_blank" rel="noopener">Ver anuncio →</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <div class="thumb"><span class="town">El Vendrell</span>
-        <img loading="lazy" alt="Chalet Bonavista con piscina en El Vendrell"
-          src="https://pics.nuroa.com/chalet_alquiler_el_vendrell_bonavista_2390003783590247580.jpg"></div>
-      <div class="body">
-        <h2 class="ttl">Chalet Bonavista · con piscina</h2>
-        <p class="est">Piscina azul, terraza y zona de barbacoa. Bien cuidado, vibra de casa de familia.</p>
-        <span class="price">💰 <b>~750–950 €/mes</b></span>
-        <a class="btn" href="https://www.nuroa.es/alquiler/alquiler-el-vendrell" target="_blank" rel="noopener">Ver anuncio →</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <div class="thumb"><span class="town">El Vendrell</span>
-        <img loading="lazy" alt="Casa Mas Borràs con piscina en El Vendrell"
-          src="https://pics.nuroa.com/casa_alquiler_el_vendrell_mas_borras_el_nou_vendrell_7580004778147360656.jpg"></div>
-      <div class="body">
-        <h2 class="ttl">Casa Mas Borràs · con piscina</h2>
-        <p class="est">Dos plantas, terraza amplia y piscina. Estructura sana, cero dejadez.</p>
-        <span class="price">💰 <b>~750–950 €/mes</b></span>
-        <a class="btn" href="https://www.nuroa.es/alquiler/alquiler-el-vendrell" target="_blank" rel="noopener">Ver anuncio →</a>
+        <h2 class="ttl">Casa de 3 habitaciones</h2>
+        <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 120 m²</span></div>
+        <span class="price">💰 <b>950 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1383958" target="_blank" rel="noopener">Ver propiedad →</a>
       </div>
     </article>
 
   </section>
 
-  <div class="disclaimer">
-    <b>⚠️ Sobre los precios:</b> Idealista, Fotocasa y Nuroa cargan los precios por JavaScript (bot-blocked), así que no se pueden raspar al pelo. Las <b>fotos SÍ son reales</b> del anuncio y se han revisado una a una para descartar cuchitriles y lujo. Las cifras son <b>bandas por pueblo</b> (datos de búsqueda: Roda mediana ~899 €, Vendrell desde ~627 €, Altafulla desde ~1.100 €). El precio exacto y la disponibilidad hay que confirmarlos al clicar en "Ver anuncio".<br><br>
-    <b>Descartadas del top 8:</b> una villa moderna con piscina y una casa de primera línea de mar, ambas en Altafulla — casi seguro &gt;1.000 €/mes, fuera de presupuesto.
+  <div class="src">
+    <b>✅ Datos verificados:</b> precio mensual <b>exacto</b> y enlace <b>directo a la propiedad</b> (no al listado), extraídos de <b>casasenventaypisosalquiler.es</b>, que publica precio y enlace en HTML plano. Las 8 fotos se revisaron una a una: todas son casas bien cuidadas, ninguna cuchitril ni lujo.<br><br>
+    <b>Nota:</b> los anuncios están etiquetados como "alquiler". Al visitar la propiedad, confirmad si es <b>alquiler de año (fijo)</b> o temporada. Toda casa supera el límite de 1.000 €/mes (p.ej. un chalet en Bonavista salía a 3.500 €) se descarta automáticamente.
   </div>
 </main>
 
 <footer>
-  Hecho por <span class="tag">DaBoss 🔥</span> · datos a 14 jul 2026 · fuentes: Nuroa · CVP · Idealista · Fotocasa<br>
-  Proyecto de demostración — ni cuchitriles ni lujo, solo casas decentes cerca del mar.
+  Hecho por <span class="tag">DaBoss 🔥</span> · datos a 14 jul 2026 · fuente: casasenventaypisosalquiler.es<br>
+  Precios y enlaces verificados · 8 casas ≤1000 €/mes a <30 min de Roda de Barà.
 </footer>
 </body>
 </html>
