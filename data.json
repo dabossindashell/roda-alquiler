@@ -13,7 +13,9 @@
    "pueblo": "Tarragona N.E.",
    "dist": "Tarragona N.E. · ~25-30 min (borde)",
    "hab": null,
-   "m2": 38
+   "m2": 38,
+   "tipo": "Casa",
+   "terraza": null
   },
   {
    "titulo": "Casa en alquiler de 3 habitaciones en La Bisbal del Penedès, Tarragona",
@@ -28,7 +30,9 @@
    "pueblo": "La Bisbal del Penedès",
    "dist": "La Bisbal del Penedès · ~30-35 min (borde)",
    "hab": 3,
-   "m2": 122
+   "m2": 122,
+   "tipo": "Casa",
+   "terraza": null
   },
   {
    "titulo": "Casa en alquiler: Vilarodona, Tarragona",
@@ -43,7 +47,9 @@
    "pueblo": "Vilarodona",
    "dist": "Vilarodona · ~5 min",
    "hab": null,
-   "m2": 280
+   "m2": 280,
+   "tipo": "Casa",
+   "terraza": null
   },
   {
    "titulo": "Casa en alquiler de 2 habitaciones: Vilaverd, Tarragona",
@@ -58,7 +64,9 @@
    "pueblo": "Vilaverd",
    "dist": "Vilaverd · ~8 min",
    "hab": 2,
-   "m2": 167
+   "m2": 167,
+   "tipo": "Casa",
+   "terraza": null
   },
   {
    "titulo": "Casa en alquiler de 3 habitaciones en Cataluña, Tarragona",
@@ -73,7 +81,9 @@
    "pueblo": "Vilaverd area",
    "dist": "Vilaverd area · ~10 min (ubicación por confirmar)",
    "hab": 3,
-   "m2": 130
+   "m2": 130,
+   "tipo": "Casa",
+   "terraza": null
   },
   {
    "titulo": "Casa de 3 habitaciones en alquiler en Poble, Montroig del Camp",
@@ -88,7 +98,415 @@
    "pueblo": "Montroig del Camp",
    "dist": "Montroig del Camp · ~30-35 min (borde)",
    "hab": 3,
-   "m2": 97
+   "m2": 97,
+   "tipo": "Casa",
+   "terraza": null
+  },
+  {
+   "titulo": "Piso en alquiler de 4 habitaciones, Ponent, Reus",
+   "precio_eur_mes": 900,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/4-hab-ponent-reus/1383922",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/88e376b7b01f9ae3e8d39f6543d26caa/f3537b2261271e76b0d2818531e14552.jpg",
+   "pueblo": "Vilaverd",
+   "slug": "vilaverd",
+   "tipo": "Piso",
+   "hab": 4,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/88e376b7b01f9ae3e8d39f6543d26caa/f3537b2261271e76b0d2818531e14552.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/88e376b7b01f9ae3e8d39f6543d26caa/802abf7c277f338dc693f595c9211bb9.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/88e376b7b01f9ae3e8d39f6543d26caa/0c503d45478fb8234501f2df79050242.jpg"
+   ],
+   "dist": "Vilaverd · ~8 min"
+  },
+  {
+   "titulo": "Nou Eixample Nord, Tarragona Capital: Piso en alquiler de 3 habitaciones",
+   "precio_eur_mes": 1135,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-nou-eixample-nord-tarragona-capital/1367699",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/aaa76adb9d1298d6f74e38d649d273d9/d8f25bbeb0d9e2822de92dd1054399f1.jpg",
+   "pueblo": "Vilaverd",
+   "slug": "vilaverd",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/aaa76adb9d1298d6f74e38d649d273d9/d8f25bbeb0d9e2822de92dd1054399f1.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/aaa76adb9d1298d6f74e38d649d273d9/d37c258ca7dd38512e97acabd16cf0e3.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/aaa76adb9d1298d6f74e38d649d273d9/29dab65a24ec169fef6d4c159c9fe162.jpg"
+   ],
+   "dist": "Vilaverd · ~8 min"
+  },
+  {
+   "titulo": "Piso en alquiler de 3 habitaciones, Cataluña, Tarragona",
+   "precio_eur_mes": 1135,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1368867",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/c7c6c5098090723ce5e47d30c5e4712f/deaadb84b1448652092472ababda1935.jpg",
+   "pueblo": "Vilaverd",
+   "slug": "vilaverd",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/c7c6c5098090723ce5e47d30c5e4712f/deaadb84b1448652092472ababda1935.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/c7c6c5098090723ce5e47d30c5e4712f/a3a983d12bb383cfb95398b65928984a.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/c7c6c5098090723ce5e47d30c5e4712f/fec888c90fe99008fc8d616b039f6775.jpg"
+   ],
+   "dist": "Vilaverd · ~8 min"
+  },
+  {
+   "titulo": "Piso en alquiler de 3 habitaciones en Centre, Torredembarra",
+   "precio_eur_mes": 600,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-centre-torredembarra/1384065",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/79c43ca556f93a22e6404a35d63d6f29/fb93c77c54f3793e5207d7e02732aa33.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/79c43ca556f93a22e6404a35d63d6f29/fb93c77c54f3793e5207d7e02732aa33.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/79c43ca556f93a22e6404a35d63d6f29/a4f17e235a9bdf1af865bcfe2b40cfbf.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/79c43ca556f93a22e6404a35d63d6f29/4bd57b6aac600a513f487b4b97886c42.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Roda de Berà, Tarragona: Piso en alquiler de 3 habitaciones",
+   "precio_eur_mes": 760,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-roda-de-bera-tarragona/1384024",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/aeff686df446545b38c1c6549d921546/4af2cca6ceee23ffc33dc3c8308f00aa.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/aeff686df446545b38c1c6549d921546/4af2cca6ceee23ffc33dc3c8308f00aa.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/aeff686df446545b38c1c6549d921546/b80082567bfe32daa5eaa869610f0d03.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/aeff686df446545b38c1c6549d921546/21dddde401c025c6dff6ecfaedb9c589.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Piso de 3 habitaciones en alquiler en Centre, Torredembarra",
+   "precio_eur_mes": 800,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-centre-torredembarra/1384091",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/c1e0fcf26cb5539ad382ee81872578a1/b12d33db3ee284cec4342f413dc8235a.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/c1e0fcf26cb5539ad382ee81872578a1/b12d33db3ee284cec4342f413dc8235a.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/c1e0fcf26cb5539ad382ee81872578a1/744c1bd7b0d651fd564b6ca6c21795c5.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/c1e0fcf26cb5539ad382ee81872578a1/4d6dc4f7526d14b9a78d2f0e7fcf65ba.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Plaça Europa Port Aventura, Salou: Piso en alquiler de 3 habitaciones",
+   "precio_eur_mes": 850,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-placa-europa-port-aventura-salou/1384039",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/dcc5c334ab9dfb01b7c670d629146730/848d29518044b1965ab10bf41e5b723d.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/dcc5c334ab9dfb01b7c670d629146730/848d29518044b1965ab10bf41e5b723d.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/dcc5c334ab9dfb01b7c670d629146730/0e019ac0c9eb7cd0a0426732e40bed06.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/dcc5c334ab9dfb01b7c670d629146730/2370123aca6e20321818237a761e7288.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Piso en alquiler de 4 habitaciones, Centre, Salou",
+   "precio_eur_mes": 1100,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/4-hab-centre-salou/1384047",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/105efbca8eaa8826443bad21afa735b1/1869858763aa6fa60c6df8176f64eda3.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 4,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/105efbca8eaa8826443bad21afa735b1/1869858763aa6fa60c6df8176f64eda3.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/105efbca8eaa8826443bad21afa735b1/12fcb202752c8dc0f932aa53e261b2fd.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/105efbca8eaa8826443bad21afa735b1/1cb50377e6e378fc2a454a8c60c11957.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Eixample, Tarragona Capital: Piso en alquiler de 4 habitaciones",
+   "precio_eur_mes": 1110,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/4-hab-eixample-tarragona-capital/1384049",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/6b2748562d1ab063c204d5878e16e299/4ebba63c9979b3320b76096ebdc7305f.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 4,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/6b2748562d1ab063c204d5878e16e299/4ebba63c9979b3320b76096ebdc7305f.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/6b2748562d1ab063c204d5878e16e299/f683b413e9c6606a4a7b90228095053c.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/6b2748562d1ab063c204d5878e16e299/a320f83e7913a21a3c217e31d7a590c2.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Nou Eixample Sud, Tarragona Capital: Piso en alquiler de 4 habitaciones",
+   "precio_eur_mes": 900,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/4-hab-nou-eixample-sud-tarragona-capital/1383954",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/58ba47adec99d45e074ad77300f1ea90/4c5a693a0215021c6e788264db1d250e.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 4,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/58ba47adec99d45e074ad77300f1ea90/4c5a693a0215021c6e788264db1d250e.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/58ba47adec99d45e074ad77300f1ea90/9f77fe54a5301b6f4031f7009ddc90ab.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/58ba47adec99d45e074ad77300f1ea90/65c4f1dee42a9ee8e052791cf9fd3049.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Nou Eixample Sud, Tarragona Capital: Piso en alquiler de 4 habitaciones",
+   "precio_eur_mes": 915,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/4-hab-nou-eixample-sud-tarragona-capital/1383919",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/3f5cf08036b77b465d96af42e42f1803/cc4e13cfb7c7855628d8e0b6e8e51a23.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 4,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/3f5cf08036b77b465d96af42e42f1803/cc4e13cfb7c7855628d8e0b6e8e51a23.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/3f5cf08036b77b465d96af42e42f1803/86d8342adc00b96754761c4365b90d1b.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/3f5cf08036b77b465d96af42e42f1803/01772684f36077c5e301ccdf6b3bedb9.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Piso de 3 habitaciones en alquiler en Urbanitzacions de Llevant, Tarragona Capital",
+   "precio_eur_mes": 940,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-urbanitzacions-de-llevant-tarragona-capital/1383966",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/96ba4026a7f804d4246765bc2e5d9fcc/0e36a6f0f370e96315dcd3c3641dfa7e.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/96ba4026a7f804d4246765bc2e5d9fcc/0e36a6f0f370e96315dcd3c3641dfa7e.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/96ba4026a7f804d4246765bc2e5d9fcc/49f236aac92a417d3d9aa6909eb0743f.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/96ba4026a7f804d4246765bc2e5d9fcc/035da0917aefd0a27d05b2e8b032966b.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Piso en alquiler de 3 habitaciones, Part Alta, Tarragona Capital",
+   "precio_eur_mes": 1000,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-part-alta-tarragona-capital/1383942",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/76498382defa246819dcadd8f8a6a2a3/02964e07a42d48e289dc96e8be10d1cd.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/76498382defa246819dcadd8f8a6a2a3/02964e07a42d48e289dc96e8be10d1cd.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/76498382defa246819dcadd8f8a6a2a3/c59c58b398763a9595bcb544f96684db.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/76498382defa246819dcadd8f8a6a2a3/2c8ded3294e2c3f15ef704d7879d4192.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Piso de 3 habitaciones en alquiler en Vilafortuny Cap de Sant Pere, Els Tallats Mas Olivé",
+   "precio_eur_mes": 1150,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-vilafortuny-cap-de-sant-pere-els-tallats-mas-olive/1383941",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/dc675b996f6a565f3dbca8a8dcd5787f/0ef5d25c7b2fc64157d1958dec24335a.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/dc675b996f6a565f3dbca8a8dcd5787f/0ef5d25c7b2fc64157d1958dec24335a.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/dc675b996f6a565f3dbca8a8dcd5787f/7383c6b78c177b11bb0623f6eed3bff4.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/dc675b996f6a565f3dbca8a8dcd5787f/32a026723293b6ad84fe2d082ca98192.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Centre, Salou: Piso en alquiler de 4 habitaciones",
+   "precio_eur_mes": 1050,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/4-hab-centre-salou/1348569",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/e5408bc31141a6bd1c633d8665055239/3db859763f4d66d154f7bc780ff0386a.jpg",
+   "pueblo": "Valls",
+   "slug": "valls",
+   "tipo": "Piso",
+   "hab": 4,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/e5408bc31141a6bd1c633d8665055239/3db859763f4d66d154f7bc780ff0386a.jpg"
+   ],
+   "dist": "Valls · ~15 min"
+  },
+  {
+   "titulo": "Piso de 3 habitaciones en alquiler en Nou Eixample Sud, Tarragona Capital",
+   "precio_eur_mes": 960,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-nou-eixample-sud-tarragona-capital/1348441",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/1bbdc2279bf8750e38bd55d8971bd8bc/19f0ceeb6e4d36816bede9cca414d087.jpg",
+   "pueblo": "Montblanc",
+   "slug": "montblanc",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/1bbdc2279bf8750e38bd55d8971bd8bc/19f0ceeb6e4d36816bede9cca414d087.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/1bbdc2279bf8750e38bd55d8971bd8bc/11ddd9083d060f9dd28420c0f35501ca.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/1bbdc2279bf8750e38bd55d8971bd8bc/c2f6b4fe4aa21427bad52626ff8f00f4.jpg"
+   ],
+   "dist": "Tarragona N.E. · ~25-30 min (borde)"
+  },
+  {
+   "titulo": "Piso de 3 habitaciones en alquiler en Nou Eixample Nord, Tarragona Capital",
+   "precio_eur_mes": 890,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-nou-eixample-nord-tarragona-capital/1331801",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/d8d325c8ded3b0dfc2c9166f14469cc1/3de7381e41eb683948a2d28dbd530ace.jpg",
+   "pueblo": "Montblanc",
+   "slug": "montblanc",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/d8d325c8ded3b0dfc2c9166f14469cc1/3de7381e41eb683948a2d28dbd530ace.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/d8d325c8ded3b0dfc2c9166f14469cc1/b0f9d0ba20e851f68fa27c4fa02d98a1.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/d8d325c8ded3b0dfc2c9166f14469cc1/ef2cb3bf0b1d530e013aaae873e0b243.jpg"
+   ],
+   "dist": "Tarragona N.E. · ~25-30 min (borde)"
+  },
+  {
+   "titulo": "Piso en alquiler de 3 habitaciones, Eixample, Tarragona Capital",
+   "precio_eur_mes": 1200,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-eixample-tarragona-capital/1218017",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/0c65b025820676dc9f53c2138a926bbd/bd6787d3420df562cf4f42928227f86d.jpg",
+   "pueblo": "Montblanc",
+   "slug": "montblanc",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/0c65b025820676dc9f53c2138a926bbd/bd6787d3420df562cf4f42928227f86d.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/0c65b025820676dc9f53c2138a926bbd/be4fd70611f8bee8d2875002557d3a75.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/0c65b025820676dc9f53c2138a926bbd/518a27017352976189c08a36a7e442b3.jpg"
+   ],
+   "dist": "Tarragona N.E. · ~25-30 min (borde)"
+  },
+  {
+   "titulo": "Piso en alquiler de 3 habitaciones: Vilafortuny Cap de Sant Pere, Vilafortuny Platja",
+   "precio_eur_mes": 950,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-vilafortuny-cap-de-sant-pere-vilafortuny-platja/1367708",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/2bc2c676c8befea0f473c347bce7043e/109a3d8d0283129349652120e8b50339.jpg",
+   "pueblo": "La Selva Del Camp",
+   "slug": "la-selva-del-camp",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/2bc2c676c8befea0f473c347bce7043e/109a3d8d0283129349652120e8b50339.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/2bc2c676c8befea0f473c347bce7043e/b9bee0359200d61bd826109a15a815d1.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/2bc2c676c8befea0f473c347bce7043e/6652f00e73cafbee0c4ae741ab95b7ed.jpg"
+   ],
+   "dist": "La Selva del Camp · ~20 min"
+  },
+  {
+   "titulo": "Piso en alquiler de 3 habitaciones, Calafell Poble, Calafell",
+   "precio_eur_mes": 990,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-calafell-poble-calafell/1383937",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/11cebe33faee8276b605d72924653c77/b64c6ced7ec6ec5dfe8169fd2096a44e.jpg",
+   "pueblo": "Sarral",
+   "slug": "sarral",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/11cebe33faee8276b605d72924653c77/b64c6ced7ec6ec5dfe8169fd2096a44e.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/11cebe33faee8276b605d72924653c77/211727d2633d2eca85225c4b4154cf21.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/11cebe33faee8276b605d72924653c77/f081dcf7bfa87264a33fdf7fe8c661b1.jpg"
+   ],
+   "dist": "Sarral · ~20 min"
+  },
+  {
+   "titulo": "Port Horta de Santa María, Cambrils: Piso en alquiler de 3 habitaciones",
+   "precio_eur_mes": 1200,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-port-horta-de-santa-maria-cambrils/1384009",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/5484c9fa99d6ca9036824c812d3c92a4/dc381312f08a73b85748569db50013d2.jpg",
+   "pueblo": "Sarral",
+   "slug": "sarral",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/5484c9fa99d6ca9036824c812d3c92a4/dc381312f08a73b85748569db50013d2.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/5484c9fa99d6ca9036824c812d3c92a4/19ceb614ee5fa37dbecf2baca47b86f6.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/5484c9fa99d6ca9036824c812d3c92a4/aa542e3eed75fce21577fb4bef84863f.jpg"
+   ],
+   "dist": "Sarral · ~20 min"
+  },
+  {
+   "titulo": "Piso en alquiler de 3 habitaciones en Port Horta de Santa María, Cambrils",
+   "precio_eur_mes": 1200,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-port-horta-de-santa-maria-cambrils/1383995",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/b72bfdbfeefa566ba28486d3ae5c11eb/d9a5b55c5d0770056c67bed71b81d1b7.jpg",
+   "pueblo": "Sarral",
+   "slug": "sarral",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/b72bfdbfeefa566ba28486d3ae5c11eb/d9a5b55c5d0770056c67bed71b81d1b7.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/b72bfdbfeefa566ba28486d3ae5c11eb/85167591a68b2e059ff14d328cfe28b1.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/b72bfdbfeefa566ba28486d3ae5c11eb/ec0dae2ffe7f2108267eac40fe7e3031.jpg"
+   ],
+   "dist": "Sarral · ~20 min"
+  },
+  {
+   "titulo": "Piso en alquiler de 3 habitaciones en Les Salines Pla de Sant Pere, Cubelles",
+   "precio_eur_mes": 1200,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-les-salines-pla-de-sant-pere-cubelles/1375605",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/315f38fbfbb9ade22bca8c1ceab0bfc6/e500361f3407a2c82e77edab5ea7cddb.jpg",
+   "pueblo": "L Arboc",
+   "slug": "l-arboc",
+   "tipo": "Piso",
+   "hab": 3,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/315f38fbfbb9ade22bca8c1ceab0bfc6/e500361f3407a2c82e77edab5ea7cddb.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/315f38fbfbb9ade22bca8c1ceab0bfc6/11c860a9f1479d607a7c3e4ffc347088.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/315f38fbfbb9ade22bca8c1ceab0bfc6/677c97392d93841b84350541e9896cab.jpg"
+   ],
+   "dist": "L'Arboç · ~30 min (borde)"
+  },
+  {
+   "titulo": "Piso en alquiler de 5 habitaciones en Cataluña, Tarragona",
+   "precio_eur_mes": 990,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/5-hab-cataluna-tarragona/1351915",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/b8e0524cf18ec777dd58b08e41b1e8f7/e0f3f0e9fc3df84b93d5181668ecf593.jpg",
+   "pueblo": "L Arboc",
+   "slug": "l-arboc",
+   "tipo": "Piso",
+   "hab": 5,
+   "terraza": true,
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/b8e0524cf18ec777dd58b08e41b1e8f7/e0f3f0e9fc3df84b93d5181668ecf593.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/b8e0524cf18ec777dd58b08e41b1e8f7/916aeecd929ce92d4e96850f8f26f708.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/b8e0524cf18ec777dd58b08e41b1e8f7/c3c705917cfd2dd78b9b3d11103f0850.jpg"
+   ],
+   "dist": "L'Arboç · ~30 min (borde)"
   }
  ]
 }
