@@ -5,10 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Casas a <30 min de Roda de Barà · Filtro DaBoss</title>
 <style>
-  :root{
-    --bg:#0b0f17; --card:#121826; --line:#1f2a3d; --txt:#e6edf6; --muted:#90a0b8;
-    --neon:#2bd4ff; --neon2:#7c5cff; --ok:#39d98a; --warn:#ffb454;
-  }
+  :root{--bg:#0b0f17;--card:#121826;--line:#1f2a3d;--txt:#e6edf6;--muted:#90a0b8;
+    --neon:#2bd4ff;--neon2:#7c5cff;--ok:#39d98a;--warn:#ffb454;}
   *{box-sizing:border-box}
   body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#15233b 0,var(--bg) 60%);color:var(--txt);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5}
@@ -37,23 +35,23 @@
   .btn{margin-top:auto;display:inline-block;text-align:center;text-decoration:none;color:#04121b;font-weight:700;
     background:linear-gradient(90deg,var(--neon),var(--neon2));padding:9px 12px;border-radius:11px;font-size:13.5px}
   .btn:hover{filter:brightness(1.08)}
-  .note{font-size:12px;color:var(--muted);margin:2px 0 0}
-  .src{max-width:1100px;margin:26px auto 0;padding:16px 18px;background:#0e1626;border:1px solid var(--line);
+  .note{max-width:1100px;margin:24px auto 0;padding:16px 18px;background:#0e1626;border:1px solid var(--line);
     border-radius:14px;color:var(--muted);font-size:13px}
-  .src b{color:var(--txt)}
+  .note b{color:var(--txt)}
+  .note .warn{color:var(--warn)}
   footer{text-align:center;color:var(--muted);font-size:12px;padding:26px 14px 40px}
   .tag{color:var(--neon)}
 </style>
 </head>
 <body>
 <header>
-  <h1>Casas de alquiler a <span class="neon">&lt;30 min de Roda de Barà</span></h1>
-  <p class="sub">Filtro DaBoss 🔥 — datos <b>verificados</b>: precio mensual exacto y enlace directo a la propiedad. Radio: Roda de Barà, Torredembarra, Altafulla, La Pobla de Montornès y alrededores.</p>
+  <h1>Casas de alquiler <span class="neon">FIJO</span> a &lt;30 min de Roda de Barà</h1>
+  <p class="sub">Filtro DaBoss 🔥 — datos <b>verificados</b>: precio mensual exacto y enlace directo a la propiedad, sin anuncios de temporada. Fuente: casasenventaypisosalquiler.es.</p>
   <div class="pillbox">
     <span class="pill">⏱ &lt;30 min en coche</span>
     <span class="pill">💶 ≤ 1000 €/mes (exacto)</span>
-    <span class="pill">🏠 solo casas/chalets</span>
-    <span class="pill">📷 fotos revisadas</span>
+    <span class="pill">🏠 solo casas</span>
+    <span class="pill">✅ alquiler fijo (no temporada)</span>
   </div>
 </header>
 
@@ -87,30 +85,6 @@
     <article class="card">
       <div class="thumb"><span class="town">Torredembarra · Clarà</span>
         <img loading="lazy" alt="Casa en alquiler Clarà, Torredembarra"
-          src="https://casasypisos.s3.eu-south-2.amazonaws.com/a98ac4b7de44f8ab1b56d3accd71de66/3bde60d3f4c3a96555b257b23f3f76a6.jpg"></div>
-      <div class="body">
-        <h2 class="ttl">Casa de 3 habitaciones · Clarà</h2>
-        <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 100 m²</span></div>
-        <span class="price">💰 <b>850 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-comaruga-platja-el-vendrell/1384041" target="_blank" rel="noopener">Ver propiedad →</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <div class="thumb"><span class="town">Torredembarra · Babilonia</span>
-        <img loading="lazy" alt="Casa en alquiler Babilonia, Torredembarra"
-          src="https://casasypisos.s3.eu-south-2.amazonaws.com/8f6db6601446e973541f63bc7379d01f/aba6404f7046000b7844e66ff6134ff1.jpg"></div>
-      <div class="body">
-        <h2 class="ttl">Casa de 4 habitaciones · Babilonia</h2>
-        <div class="chips"><span class="chip">🛏 4 hab</span><span class="chip">📐 83 m²</span></div>
-        <span class="price">💰 <b>990 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/4-hab-el-tancat-mas-den-gual-el-vendrell/1384060" target="_blank" rel="noopener">Ver propiedad →</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <div class="thumb"><span class="town">Torredembarra · Clarà</span>
-        <img loading="lazy" alt="Casa en alquiler Clarà, Torredembarra"
           src="https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/4e4480d39b8754dfc48738608e5f550a.jpg"></div>
       <div class="body">
         <h2 class="ttl">Casa de 2 habitaciones · Clarà</h2>
@@ -132,41 +106,17 @@
       </div>
     </article>
 
-    <article class="card">
-      <div class="thumb"><span class="town">Torredembarra · Els Munts</span>
-        <img loading="lazy" alt="Casa en alquiler Els Munts, Torredembarra"
-          src="https://casasypisos.s3.eu-south-2.amazonaws.com/6a6a24f3da0f05b1f2d25a5f879f6718/670f6ebd049bd20aa491aa459d41b485.jpg"></div>
-      <div class="body">
-        <h2 class="ttl">Casa de 3 habitaciones · Els Munts</h2>
-        <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 100 m²</span></div>
-        <span class="price">💰 <b>900 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-comaruga-platja-el-vendrell/1384090" target="_blank" rel="noopener">Ver propiedad →</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <div class="thumb"><span class="town">Altafulla</span>
-        <img loading="lazy" alt="Casa en alquiler Altafulla"
-          src="https://casasypisos.s3.eu-south-2.amazonaws.com/a46ac1834de2fcc8b984bb1ac19b946c/364d3d7f5b647455c9d6a8e56c841510.jpg"></div>
-      <div class="body">
-        <h2 class="ttl">Casa de 3 habitaciones</h2>
-        <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 120 m²</span></div>
-        <span class="price">💰 <b>950 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1383958" target="_blank" rel="noopener">Ver propiedad →</a>
-      </div>
-    </article>
-
   </section>
 
-  <div class="src">
-    <b>✅ Datos verificados:</b> precio mensual <b>exacto</b> y enlace <b>directo a la propiedad</b> (no al listado), extraídos de <b>casasenventaypisosalquiler.es</b>, que publica precio y enlace en HTML plano. Las 8 fotos se revisaron una a una: todas son casas bien cuidadas, ninguna cuchitril ni lujo.<br><br>
-    <b>Nota:</b> los anuncios están etiquetados como "alquiler". Al visitar la propiedad, confirmad si es <b>alquiler de año (fijo)</b> o temporada. Toda casa supera el límite de 1.000 €/mes (p.ej. un chalet en Bonavista salía a 3.500 €) se descarta automáticamente.
+  <div class="note">
+    <b>⚠️ Transparencia sobre el número de resultados:</b> el objetivo eran 8 candidatas, pero en las fuentes que publican <b>precio y enlace exactos en HTML plano</b> (casasenventaypisosalquiler.es) solo hay <b>4 casas de alquiler FIJO ≤ 1000 €/mes</b> en todo el radio. Las otras 4 que aparecían en la tanda anterior eran de <span class="warn">temporada / uso turístico</span> (p.ej. "alojamiento de temporada, exclusivamente uso turístico") y se descartan porque no son alquiler fijo.<br><br>
+    Los portales grandes (Idealista, Pisos.com, Fotocasa, Habitaclia) cargan precios y enlaces por JavaScript, así que no se extraen de forma fiable sin un navegador headless. Si queréis llegar a 8, puedo montar un scraper con navegador headless para esos portales (más pesado y pueden bloquear la IP del server). <b>Decidme si seguimos buscando o nos quedamos con estas 4 verificadas.</b>
   </div>
 </main>
 
 <footer>
   Hecho por <span class="tag">DaBoss 🔥</span> · datos a 14 jul 2026 · fuente: casasenventaypisosalquiler.es<br>
-  Precios y enlaces verificados · 8 casas ≤1000 €/mes a <30 min de Roda de Barà.
+  4 casas de alquiler FIJO ≤1000 €/mes verificadas a &lt;30 min de Roda de Barà.
 </footer>
 </body>
 </html>
