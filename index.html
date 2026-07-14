@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Casas a <30 min de Roda de Barà · Filtro DaBoss</title>
+<title>Casas a ≤30 min de Vilarodona/Vilaverd · Filtro DaBoss</title>
 <style>
   :root{--bg:#0b0f17;--card:#121826;--line:#1f2a3d;--txt:#e6edf6;--muted:#90a0b8;
     --neon:#2bd4ff;--neon2:#7c5cff;--ok:#39d98a;--warn:#ffb454;}
@@ -13,7 +13,7 @@
   header{padding:34px 18px 10px;text-align:center}
   h1{margin:0;font-size:clamp(22px,5vw,34px);letter-spacing:.3px}
   h1 .neon{color:var(--neon);text-shadow:0 0 18px rgba(43,212,255,.5)}
-  .sub{color:var(--muted);margin:8px auto 0;max-width:720px;font-size:14px}
+  .sub{color:var(--muted);margin:8px auto 0;max-width:760px;font-size:14px}
   .pillbox{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:16px 0 4px}
   .pill{background:#0e1626;border:1px solid var(--line);color:var(--neon);padding:5px 11px;border-radius:999px;font-size:12px}
   main{max-width:1100px;margin:0 auto;padding:14px 14px 40px}
@@ -33,6 +33,7 @@
   .nav.prev{left:8px}.nav.next{right:8px}
   .body{padding:13px 14px 15px;display:flex;flex-direction:column;gap:8px;flex:1}
   .ttl{font-size:15px;font-weight:700;margin:0}
+  .dist{display:inline-block;color:var(--neon2);font-size:12.5px;font-weight:600}
   .chips{display:flex;gap:6px;flex-wrap:wrap}
   .chip{background:#0c1626;border:1px solid var(--line);color:var(--muted);font-size:12px;padding:3px 8px;border-radius:8px}
   .price{display:inline-flex;align-items:center;gap:7px;background:#0c1626;border:1px solid var(--line);
@@ -50,10 +51,10 @@
 </head>
 <body>
 <header>
-  <h1>Casas de alquiler <span class="neon">FIJO</span> a &lt;30 min de Roda de Barà</h1>
-  <p class="sub">Filtro DaBoss 🔥 — datos <b>verificados</b>: precio mensual exacto y enlace directo (se abre en nueva pestaña). Carrusel de fotos reales por propiedad. Fuente: casasenventaypisosalquiler.es.</p>
+  <h1>Casas de alquiler <span class="neon">FIJO</span> a ≤30 min de Vilarodona/Vilaverd</h1>
+  <p class="sub">Filtro DaBoss 🔥 — datos <b>verificados</b>: precio mensual exacto y enlace directo (se abre en nueva pestaña). Carrusel de fotos reales por propiedad. Fuente: casasenventaypisosalquiler.es. Tope 1.200 €/mes, solo largo plazo.</p>
   <div class="pillbox">
-    <span class="pill">⏱ &lt;30 min</span><span class="pill">💶 ≤1000 €/mes</span>
+    <span class="pill">⏱ ≤30 min Vilarodona/Vilaverd</span><span class="pill">💶 ≤1200 €/mes</span>
     <span class="pill">🏠 solo casas</span><span class="pill">✅ alquiler fijo</span><span class="pill">🖼 carrusel fotos</span>
   </div>
 </header>
@@ -61,67 +62,101 @@
   <section class="grid">
     <article class="card">
       <div class="thumb">
-        <span class="town">Roda de Barà</span>
-        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/3c8e8e16a7df1db3392c3bca9c333acf.jpg" alt="Roda de Barà"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/9a10573dde3b7437194bd217d5586d16.jpg" alt="Roda de Barà"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/96caacd51976774ba469d3db18373e82.jpg" alt="Roda de Barà"></div>
+        <span class="town">Tarragona N.E.</span>
+        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/be335ef8a8d35ddf180de35bcf3c6815/66a730f5ce1eeefc41c7fe232f65a17c.jpg" alt="Tarragona N.E."><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/be335ef8a8d35ddf180de35bcf3c6815/82017c5bbad911e2a3b2aec9aaf67ca3.jpg" alt="Tarragona N.E."><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/be335ef8a8d35ddf180de35bcf3c6815/1a2ea01b631edcf7efda2abbcf11230e.jpg" alt="Tarragona N.E."></div>
         <button class="nav prev" data-d="-1" onclick="gal(this)" aria-label="anterior">&#8249;</button>
         <button class="nav next" data-d="1" onclick="gal(this)" aria-label="siguiente">&#8250;</button>
       </div>
       <div class="body">
-        <h2 class="ttl">Casa de 2 habitaciones</h2>
-        <div class="chips"><span class="chip">🛏 2 hab</span><span class="chip">📐 65 m²</span></div>
-        <span class="price">💰 <b>900 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1383988" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
+        <h2 class="ttl">Casa en alquiler: Nou Eixample Sud, Tarragona Capital</h2>
+        <span class="dist">📍 Tarragona N.E. · ~25-30 min (borde)</span>
+        <div class="chips"><span class="chip">🛏 hab. n/d</span><span class="chip">📐 38 m²</span></div>
+        <span class="price">💰 <b>580 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/nou-eixample-sud-tarragona-capital/1309593" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
       </div>
     </article>
     <article class="card">
       <div class="thumb">
-        <span class="town">Roda de Barà</span>
-        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/16b4c0b9fd7c5e0ab7485459cd085dc0.jpg" alt="Roda de Barà"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/a9ea0b72c2223194fbaf17ddb7c0fd12.jpg" alt="Roda de Barà"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/e5eb65ed8a5a575d37ad80320b911ed8.jpg" alt="Roda de Barà"></div>
+        <span class="town">La Bisbal del Penedès</span>
+        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/3657f9f298c3b391502c564436ad8aa7/b6588c71a2513b2deec5916553467c7a.jpg" alt="La Bisbal del Penedès"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/3657f9f298c3b391502c564436ad8aa7/3d849c1b0a58833874d9cbdf91b59010.jpg" alt="La Bisbal del Penedès"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/3657f9f298c3b391502c564436ad8aa7/8517c90f0799a2132124f9dadd56be22.jpg" alt="La Bisbal del Penedès"></div>
         <button class="nav prev" data-d="-1" onclick="gal(this)" aria-label="anterior">&#8249;</button>
         <button class="nav next" data-d="1" onclick="gal(this)" aria-label="siguiente">&#8250;</button>
       </div>
       <div class="body">
-        <h2 class="ttl">Casa de 2 habitaciones</h2>
-        <div class="chips"><span class="chip">🛏 2 hab</span><span class="chip">📐 90 m²</span></div>
-        <span class="price">💰 <b>950 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-cataluna-tarragona/1369160" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
+        <h2 class="ttl">Casa en alquiler de 3 habitaciones en La Bisbal del Penedès, Tarragona</h2>
+        <span class="dist">📍 La Bisbal del Penedès · ~30-35 min (borde)</span>
+        <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 122 m²</span></div>
+        <span class="price">💰 <b>1050 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/3-hab-la-bisbal-del-penedes-tarragona/1383910" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
       </div>
     </article>
     <article class="card">
       <div class="thumb">
-        <span class="town">Torredembarra (Clarà)</span>
-        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/4e4480d39b8754dfc48738608e5f550a.jpg" alt="Torredembarra (Clarà)"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/5c124a2d053d09e79bb202f5aa374cba.jpg" alt="Torredembarra (Clarà)"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/ce60505310f46e5469556e4b42a923e4.jpg" alt="Torredembarra (Clarà)"></div>
+        <span class="town">Vilarodona</span>
+        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/3417a209db76c3ecef4e933bbb888f42/d3f9741141903090a0edc10715e05b40.jpg" alt="Vilarodona"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/3417a209db76c3ecef4e933bbb888f42/7d62dfdad149da3e54691a0fc0d9db5f.jpg" alt="Vilarodona"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/3417a209db76c3ecef4e933bbb888f42/79463e82b9f8d3fb2934aaa2f9db82af.jpg" alt="Vilarodona"></div>
         <button class="nav prev" data-d="-1" onclick="gal(this)" aria-label="anterior">&#8249;</button>
         <button class="nav next" data-d="1" onclick="gal(this)" aria-label="siguiente">&#8250;</button>
       </div>
       <div class="body">
-        <h2 class="ttl">Casa de 2 habitaciones</h2>
-        <div class="chips"><span class="chip">🛏 2 hab</span><span class="chip">📐 160 m²</span></div>
-        <span class="price">💰 <b>767 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1371646" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
+        <h2 class="ttl">Casa en alquiler: Vilarodona, Tarragona</h2>
+        <span class="dist">📍 Vilarodona · ~5 min</span>
+        <div class="chips"><span class="chip">🛏 hab. n/d</span><span class="chip">📐 280 m²</span></div>
+        <span class="price">💰 <b>800 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/vilarodona-tarragona/1325873" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
       </div>
     </article>
     <article class="card">
       <div class="thumb">
-        <span class="town">La Pobla de Montornès</span>
-        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/3dd928edf3102409c212d5d77383b9cb.jpg" alt="La Pobla de Montornès"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/fd66b1973a593f383adc6b6465bb6c48.jpg" alt="La Pobla de Montornès"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/bf7fac473d4d647bbce886faa6cfe121.jpg" alt="La Pobla de Montornès"></div>
+        <span class="town">Vilaverd</span>
+        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/01ec8e603dff0777c50f5d4064ba45a1/19da015a0a6090194088438bf802c6ef.jpg" alt="Vilaverd"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/01ec8e603dff0777c50f5d4064ba45a1/eb756f85ad18c8f0470e3b4e069eb142.jpg" alt="Vilaverd"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/01ec8e603dff0777c50f5d4064ba45a1/0641aab4e5c69717c60f7c0d8eadeb94.jpg" alt="Vilaverd"></div>
         <button class="nav prev" data-d="-1" onclick="gal(this)" aria-label="anterior">&#8249;</button>
         <button class="nav next" data-d="1" onclick="gal(this)" aria-label="siguiente">&#8250;</button>
       </div>
       <div class="body">
-        <h2 class="ttl">Casa de 3 habitaciones</h2>
-        <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 109 m²</span></div>
-        <span class="price">💰 <b>900 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1370252" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
+        <h2 class="ttl">Casa en alquiler de 2 habitaciones: Vilaverd, Tarragona</h2>
+        <span class="dist">📍 Vilaverd · ~8 min</span>
+        <div class="chips"><span class="chip">🛏 2 hab</span><span class="chip">📐 167 m²</span></div>
+        <span class="price">💰 <b>800 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/2-hab-vilaverd-tarragona/1283008" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="thumb">
+        <span class="town">Vilaverd area</span>
+        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/1e5911f580f46e7746e58ee5bccc21ef/fba9a07d8bb8e9f59a6bdac3433261d2.jpg" alt="Vilaverd area"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/1e5911f580f46e7746e58ee5bccc21ef/6bd631ba2724507287f6139ed0372dab.jpg" alt="Vilaverd area"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/1e5911f580f46e7746e58ee5bccc21ef/2044cea8ec9a33910920d8d8e933bfaa.jpg" alt="Vilaverd area"></div>
+        <button class="nav prev" data-d="-1" onclick="gal(this)" aria-label="anterior">&#8249;</button>
+        <button class="nav next" data-d="1" onclick="gal(this)" aria-label="siguiente">&#8250;</button>
+      </div>
+      <div class="body">
+        <h2 class="ttl">Casa en alquiler de 3 habitaciones en Cataluña, Tarragona</h2>
+        <span class="dist">📍 Vilaverd area · ~10 min (ubicación por confirmar)</span>
+        <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 130 m²</span></div>
+        <span class="price">💰 <b>750 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/3-hab-cataluna-tarragona/1292340" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="thumb">
+        <span class="town">Montroig del Camp</span>
+        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/bd191cc2047132b01e8d5ac65a3302d7/88d56a8495cfb72d164e1d7a5eae0ec7.jpg" alt="Montroig del Camp"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/bd191cc2047132b01e8d5ac65a3302d7/b7fa0b27aac80a56fb80b847f784f32f.jpg" alt="Montroig del Camp"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/bd191cc2047132b01e8d5ac65a3302d7/0ee2ec0dcdb73589bd4eff98bbe1c4b1.jpg" alt="Montroig del Camp"></div>
+        <button class="nav prev" data-d="-1" onclick="gal(this)" aria-label="anterior">&#8249;</button>
+        <button class="nav next" data-d="1" onclick="gal(this)" aria-label="siguiente">&#8250;</button>
+      </div>
+      <div class="body">
+        <h2 class="ttl">Casa de 3 habitaciones en alquiler en Poble, Montroig del Camp</h2>
+        <span class="dist">📍 Montroig del Camp · ~30-35 min (borde)</span>
+        <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 97 m²</span></div>
+        <span class="price">💰 <b>867 €/mes</b></span>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/3-hab-poble-montroig-del-camp/1372111" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
       </div>
     </article>
   </section>
   <div class="note">
-    <b>⚠️ Transparencia:</b> el objetivo eran 8, pero en fuentes con datos exactos solo hay <b>4 casas de alquiler FIJO ≤1000 €/mes</b> en el radio. Las otras 4 de la tanda anterior eran de <span class="warn">temporada / uso turístico</span> y se descartan. Los grandes portales (Idealista, Pisos.com, Fotocasa, Habitaclia) cargan por JavaScript; llegar a 8 requeriría un scraper con navegador headless. <b>¿Seguimos buscando o nos quedamos con estas 4 verificadas?</b>
+    <b>⚠️ Transparencia:</b> con tope 1.200 € y centro Vilarodona/Vilaverd, CVP arroja <b>13 casas de alquiler a largo plazo</b> en total. De ellas, <b>6 están dentro de ~30 min</b> del radio (las que ves arriba); las otras 7 se descartan por quedar fuera (Roda de Barà, Torredembarra, Calafell, La Pobla de Montornès, Prades, La Pobla de Cérvoles, Sant Quintí de Mediona — estas dos últimas en Lleida/Barcelona, a más de 1 h). Los grandes portales (Idealista, Pisos.com, Fotocasa, Habitaclia) <span class="warn">bloquean la IP del server</span> (CAPTCHA / JS anti-bot), así que CVP es la única fuente fiable aquí. <b>¿Quieres que meta también las de borde (~30-35 min: Tarragona N.E., Montroig, La Bisbal) o las ampliamos pegando URLs de portales?</b>
   </div>
 </main>
 <footer>Hecho por <span class="tag">DaBoss 🔥</span> · datos a 14 jul 2026 · fuente: casasenventaypisosalquiler.es<br>
-4 casas de alquiler FIJO ≤1000 €/mes verificadas a &lt;30 min de Roda de Barà.</footer>
+6 casas de alquiler FIJO ≤1200 €/mes verificadas a ≤30 min de Vilarodona/Vilaverd.</footer>
 <script>
   function gal(b){
     var g=b.closest('.thumb').querySelector('.gal');
