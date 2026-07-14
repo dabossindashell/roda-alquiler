@@ -1,23 +1,22 @@
 # Casas a <30 min de Roda de Barà 🔥
 
-Filtro automático de **DaBoss** para encontrar una casa de alquiler cerca de **Roda de Barà** (Tarragona, Costa Daurada).
+Filtro de **DaBoss** para encontrar una casa de alquiler cerca de **Roda de Barà** (Tarragona, Costa Daurada), con **datos verificados**.
 
 ## Criterios
-- 📍 **Radio:** < 30 min en coche — Roda de Barà, Creixell, Torredembarra, Altafulla, Calafell y El Vendrell.
-- 💶 **Presupuesto:** ≤ 1.000 €/mes.
+- 📍 **Radio:** < 30 min en coche — Roda de Barà, Torredembarra (Clarà, Babilonia, Els Munts), Altafulla, La Pobla de Montornès y alrededores.
+- 💶 **Presupuesto:** ≤ 1.000 €/mes (precio **exacto**, no estimado).
 - 🏠 **Tipo:** casas, chalets y adosados (no pisos ni apartamentos).
 - 📷 **Calidad:** fotos revisadas una a una para descartar *cuchitriles* y *lujo* (>1.000 €).
-- 🚫 Se descartan anuncios de temporada/vacacional cuando se identifican.
+- 🚫 Se descartan anuncios de temporada/vacacional y cualquier casa > 1.000 €/mes.
+
+## Datos verificados
+A diferencia de los agregadores que cargan precios por JavaScript, **casasenventaypisosalquiler.es** publica el **precio mensual exacto** y el **enlace directo a la propiedad** en HTML plano. Por eso cada candidata lleva:
+- Precio mensual real (extraído del propio anuncio).
+- Enlace a la **página de la propiedad** (no al listado de pueblo).
+- Foto real del anuncio, revisada visualmente.
 
 ## Resultado
 8 candidatas buenas en [`index.html`](index.html) (web estática) y en [`data.json`](data.json).
-
-## Metodología y limitaciones
-Los portales inmobiliarios (Idealista, Fotocasa, Nuroa) cargan los **precios por JavaScript**, por lo que no se pueden extraer de forma fiable por scraping de HTML estático. En cambio, las **fotos SÍ son accesibles** y se han valorado visualmente para cada anuncio.
-
-- Los **precios son bandas por pueblo** (datos de búsqueda): Roda de Barà mediana ~899 €, El Vendrell desde ~627 €, Altafulla desde ~1.100 €.
-- El precio exacto y la disponibilidad se confirman al clicar en "Ver anuncio".
-- Fuentes: Nuroa, casasenventaypisosalquiler (CVP), Idealista, Fotocasa.
 
 ## Estructura
 - `index.html` — web autónoma (responsive, sin dependencias) con las 8 candidatas.
@@ -25,4 +24,4 @@ Los portales inmobiliarios (Idealista, Fotocasa, Nuroa) cargan los **precios por
 - `README.md` — este archivo.
 
 ---
-*Hecho por DaBoss 🔥 · datos a 2026-07-14 · proyecto de demostración.*
+*Hecho por DaBoss 🔥 · datos a 2026-07-14 · fuente: casasenventaypisosalquiler.es.*
