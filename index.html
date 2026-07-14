@@ -22,9 +22,15 @@
     transition:transform .15s ease,box-shadow .15s ease}
   .card:hover{transform:translateY(-3px);box-shadow:0 10px 30px rgba(43,212,255,.12)}
   .thumb{position:relative;aspect-ratio:16/10;background:#0a0f18;overflow:hidden}
-  .thumb img{width:100%;height:100%;object-fit:cover;display:block}
-  .town{position:absolute;top:10px;left:10px;background:rgba(11,15,23,.78);backdrop-filter:blur(4px);
+  .gal{display:flex;height:100%;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none}
+  .gal::-webkit-scrollbar{display:none}
+  .gal img{flex:0 0 100%;width:100%;height:100%;object-fit:cover;scroll-snap-align:start;display:block}
+  .town{position:absolute;top:10px;left:10px;z-index:2;background:rgba(11,15,23,.78);backdrop-filter:blur(4px);
     border:1px solid var(--line);color:var(--neon);font-size:12px;font-weight:600;padding:4px 9px;border-radius:999px}
+  .nav{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:34px;height:34px;border:none;cursor:pointer;
+    border-radius:50%;background:rgba(11,15,23,.7);color:var(--neon);font-size:20px;line-height:1;display:flex;align-items:center;justify-content:center}
+  .nav:hover{background:var(--neon);color:#04121b}
+  .nav.prev{left:8px}.nav.next{right:8px}
   .body{padding:13px 14px 15px;display:flex;flex-direction:column;gap:8px;flex:1}
   .ttl{font-size:15px;font-weight:700;margin:0}
   .chips{display:flex;gap:6px;flex-wrap:wrap}
@@ -37,8 +43,7 @@
   .btn:hover{filter:brightness(1.08)}
   .note{max-width:1100px;margin:24px auto 0;padding:16px 18px;background:#0e1626;border:1px solid var(--line);
     border-radius:14px;color:var(--muted);font-size:13px}
-  .note b{color:var(--txt)}
-  .note .warn{color:var(--warn)}
+  .note b{color:var(--txt)} .note .warn{color:var(--warn)}
   footer{text-align:center;color:var(--muted);font-size:12px;padding:26px 14px 40px}
   .tag{color:var(--neon)}
 </style>
@@ -46,77 +51,82 @@
 <body>
 <header>
   <h1>Casas de alquiler <span class="neon">FIJO</span> a &lt;30 min de Roda de Barà</h1>
-  <p class="sub">Filtro DaBoss 🔥 — datos <b>verificados</b>: precio mensual exacto y enlace directo a la propiedad, sin anuncios de temporada. Fuente: casasenventaypisosalquiler.es.</p>
+  <p class="sub">Filtro DaBoss 🔥 — datos <b>verificados</b>: precio mensual exacto y enlace directo (se abre en nueva pestaña). Carrusel de fotos reales por propiedad. Fuente: casasenventaypisosalquiler.es.</p>
   <div class="pillbox">
-    <span class="pill">⏱ &lt;30 min en coche</span>
-    <span class="pill">💶 ≤ 1000 €/mes (exacto)</span>
-    <span class="pill">🏠 solo casas</span>
-    <span class="pill">✅ alquiler fijo (no temporada)</span>
+    <span class="pill">⏱ &lt;30 min</span><span class="pill">💶 ≤1000 €/mes</span>
+    <span class="pill">🏠 solo casas</span><span class="pill">✅ alquiler fijo</span><span class="pill">🖼 carrusel fotos</span>
   </div>
 </header>
-
 <main>
   <section class="grid">
-
     <article class="card">
-      <div class="thumb"><span class="town">Roda de Barà</span>
-        <img loading="lazy" alt="Casa en alquiler Roda de Barà"
-          src="https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/3c8e8e16a7df1db3392c3bca9c333acf.jpg"></div>
+      <div class="thumb">
+        <span class="town">Roda de Barà</span>
+        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/3c8e8e16a7df1db3392c3bca9c333acf.jpg" alt="Roda de Barà"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/9a10573dde3b7437194bd217d5586d16.jpg" alt="Roda de Barà"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/96caacd51976774ba469d3db18373e82.jpg" alt="Roda de Barà"></div>
+        <button class="nav prev" data-d="-1" onclick="gal(this)" aria-label="anterior">&#8249;</button>
+        <button class="nav next" data-d="1" onclick="gal(this)" aria-label="siguiente">&#8250;</button>
+      </div>
       <div class="body">
         <h2 class="ttl">Casa de 2 habitaciones</h2>
         <div class="chips"><span class="chip">🛏 2 hab</span><span class="chip">📐 65 m²</span></div>
         <span class="price">💰 <b>900 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1383988" target="_blank" rel="noopener">Ver propiedad →</a>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1383988" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
       </div>
     </article>
-
     <article class="card">
-      <div class="thumb"><span class="town">Roda de Barà</span>
-        <img loading="lazy" alt="Casa en alquiler Roda de Barà"
-          src="https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/16b4c0b9fd7c5e0ab7485459cd085dc0.jpg"></div>
+      <div class="thumb">
+        <span class="town">Roda de Barà</span>
+        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/16b4c0b9fd7c5e0ab7485459cd085dc0.jpg" alt="Roda de Barà"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/a9ea0b72c2223194fbaf17ddb7c0fd12.jpg" alt="Roda de Barà"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/e5eb65ed8a5a575d37ad80320b911ed8.jpg" alt="Roda de Barà"></div>
+        <button class="nav prev" data-d="-1" onclick="gal(this)" aria-label="anterior">&#8249;</button>
+        <button class="nav next" data-d="1" onclick="gal(this)" aria-label="siguiente">&#8250;</button>
+      </div>
       <div class="body">
         <h2 class="ttl">Casa de 2 habitaciones</h2>
         <div class="chips"><span class="chip">🛏 2 hab</span><span class="chip">📐 90 m²</span></div>
         <span class="price">💰 <b>950 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-cataluna-tarragona/1369160" target="_blank" rel="noopener">Ver propiedad →</a>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-cataluna-tarragona/1369160" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
       </div>
     </article>
-
     <article class="card">
-      <div class="thumb"><span class="town">Torredembarra · Clarà</span>
-        <img loading="lazy" alt="Casa en alquiler Clarà, Torredembarra"
-          src="https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/4e4480d39b8754dfc48738608e5f550a.jpg"></div>
+      <div class="thumb">
+        <span class="town">Torredembarra (Clarà)</span>
+        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/4e4480d39b8754dfc48738608e5f550a.jpg" alt="Torredembarra (Clarà)"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/5c124a2d053d09e79bb202f5aa374cba.jpg" alt="Torredembarra (Clarà)"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/ce60505310f46e5469556e4b42a923e4.jpg" alt="Torredembarra (Clarà)"></div>
+        <button class="nav prev" data-d="-1" onclick="gal(this)" aria-label="anterior">&#8249;</button>
+        <button class="nav next" data-d="1" onclick="gal(this)" aria-label="siguiente">&#8250;</button>
+      </div>
       <div class="body">
-        <h2 class="ttl">Casa de 2 habitaciones · Clarà</h2>
+        <h2 class="ttl">Casa de 2 habitaciones</h2>
         <div class="chips"><span class="chip">🛏 2 hab</span><span class="chip">📐 160 m²</span></div>
         <span class="price">💰 <b>767 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1371646" target="_blank" rel="noopener">Ver propiedad →</a>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1371646" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
       </div>
     </article>
-
     <article class="card">
-      <div class="thumb"><span class="town">La Pobla de Montornès</span>
-        <img loading="lazy" alt="Casa en alquiler La Pobla de Montornès"
-          src="https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/3dd928edf3102409c212d5d77383b9cb.jpg"></div>
+      <div class="thumb">
+        <span class="town">La Pobla de Montornès</span>
+        <div class="gal"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/3dd928edf3102409c212d5d77383b9cb.jpg" alt="La Pobla de Montornès"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/fd66b1973a593f383adc6b6465bb6c48.jpg" alt="La Pobla de Montornès"><img loading="lazy" src="https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/bf7fac473d4d647bbce886faa6cfe121.jpg" alt="La Pobla de Montornès"></div>
+        <button class="nav prev" data-d="-1" onclick="gal(this)" aria-label="anterior">&#8249;</button>
+        <button class="nav next" data-d="1" onclick="gal(this)" aria-label="siguiente">&#8250;</button>
+      </div>
       <div class="body">
         <h2 class="ttl">Casa de 3 habitaciones</h2>
         <div class="chips"><span class="chip">🛏 3 hab</span><span class="chip">📐 109 m²</span></div>
         <span class="price">💰 <b>900 €/mes</b></span>
-        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1370252" target="_blank" rel="noopener">Ver propiedad →</a>
+        <a class="btn" href="https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1370252" target="_blank" rel="noopener noreferrer">Ver propiedad →</a>
       </div>
     </article>
-
   </section>
-
   <div class="note">
-    <b>⚠️ Transparencia sobre el número de resultados:</b> el objetivo eran 8 candidatas, pero en las fuentes que publican <b>precio y enlace exactos en HTML plano</b> (casasenventaypisosalquiler.es) solo hay <b>4 casas de alquiler FIJO ≤ 1000 €/mes</b> en todo el radio. Las otras 4 que aparecían en la tanda anterior eran de <span class="warn">temporada / uso turístico</span> (p.ej. "alojamiento de temporada, exclusivamente uso turístico") y se descartan porque no son alquiler fijo.<br><br>
-    Los portales grandes (Idealista, Pisos.com, Fotocasa, Habitaclia) cargan precios y enlaces por JavaScript, así que no se extraen de forma fiable sin un navegador headless. Si queréis llegar a 8, puedo montar un scraper con navegador headless para esos portales (más pesado y pueden bloquear la IP del server). <b>Decidme si seguimos buscando o nos quedamos con estas 4 verificadas.</b>
+    <b>⚠️ Transparencia:</b> el objetivo eran 8, pero en fuentes con datos exactos solo hay <b>4 casas de alquiler FIJO ≤1000 €/mes</b> en el radio. Las otras 4 de la tanda anterior eran de <span class="warn">temporada / uso turístico</span> y se descartan. Los grandes portales (Idealista, Pisos.com, Fotocasa, Habitaclia) cargan por JavaScript; llegar a 8 requeriría un scraper con navegador headless. <b>¿Seguimos buscando o nos quedamos con estas 4 verificadas?</b>
   </div>
 </main>
-
-<footer>
-  Hecho por <span class="tag">DaBoss 🔥</span> · datos a 14 jul 2026 · fuente: casasenventaypisosalquiler.es<br>
-  4 casas de alquiler FIJO ≤1000 €/mes verificadas a &lt;30 min de Roda de Barà.
-</footer>
+<footer>Hecho por <span class="tag">DaBoss 🔥</span> · datos a 14 jul 2026 · fuente: casasenventaypisosalquiler.es<br>
+4 casas de alquiler FIJO ≤1000 €/mes verificadas a &lt;30 min de Roda de Barà.</footer>
+<script>
+  function gal(b){
+    var g=b.closest('.thumb').querySelector('.gal');
+    g.scrollBy({left:(b.dataset.d==='1'?1:-1)*g.clientWidth,behavior:'smooth'});
+  }
+</script>
 </body>
 </html>
