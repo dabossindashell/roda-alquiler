@@ -1,25 +1,85 @@
 {
-  "generado": "2026-07-14",
-  "autor": "DaBoss",
-  "fuente": "casasenventaypisosalquiler.es (precio y enlace en HTML plano, verificados)",
-  "criterios": {
-    "radio_min_coche": 30, "centro": "Roda de Barà (Tarragona)",
-    "presupuesto_max_eur_mes": 1000, "tipos": ["casa", "chalet", "adosado"],
-    "excluir": ["pisos/apartamentos", "temporada/vacacional", ">1000 eur/mes", "cuchitril", "lujo"]
-  },
-  "nota_resultados": "En fuentes con datos exactos solo hay 4 casas de alquiler FIJO <=1000 eur/mes en el radio. Las otras 4 de la tanda anterior eran de temporada (uso turistico) y se descartan.",
-  "candidatas": [
-    {"n":1,"pueblo":"Roda de Barà","titulo":"Casa de 2 habitaciones","hab":2,"m2":65,"precio_eur_mes":900,
-     "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/3c8e8e16a7df1db3392c3bca9c333acf.jpg",
-     "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1383988"},
-    {"n":2,"pueblo":"Roda de Barà","titulo":"Casa de 2 habitaciones","hab":2,"m2":90,"precio_eur_mes":950,
-     "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/16b4c0b9fd7c5e0ab7485459cd085dc0.jpg",
-     "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-cataluna-tarragona/1369160"},
-    {"n":3,"pueblo":"Torredembarra (Clarà)","titulo":"Casa de 2 habitaciones","hab":2,"m2":160,"precio_eur_mes":767,
-     "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/4e4480d39b8754dfc48738608e5f550a.jpg",
-     "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1371646"},
-    {"n":4,"pueblo":"La Pobla de Montornès","titulo":"Casa de 3 habitaciones","hab":3,"m2":109,"precio_eur_mes":900,
-     "foto":"https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/3dd928edf3102409c212d5d77383b9cb.jpg",
-     "link":"https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1370252"}
+ "generado": "2026-07-14",
+ "autor": "DaBoss",
+ "fuente": "casasenventaypisosalquiler.es (precio y enlace en HTML plano, verificados)",
+ "criterios": {
+  "radio_min_coche": 30,
+  "centro": "Roda de Barà (Tarragona)",
+  "presupuesto_max_eur_mes": 1000,
+  "tipos": [
+   "casa",
+   "chalet",
+   "adosado"
+  ],
+  "excluir": [
+   "pisos/apartamentos",
+   "temporada/vacacional",
+   ">1000 eur/mes",
+   "cuchitril",
+   "lujo"
   ]
+ },
+ "nota_resultados": "En fuentes con datos exactos solo hay 4 casas de alquiler FIJO <=1000 eur/mes en el radio. Las otras 4 de la tanda anterior eran de temporada (uso turistico) y se descartan.",
+ "candidatas": [
+  {
+   "n": 1,
+   "pueblo": "Roda de Barà",
+   "titulo": "Casa de 2 habitaciones",
+   "hab": 2,
+   "m2": 65,
+   "precio_eur_mes": 900,
+   "foto": "https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/3c8e8e16a7df1db3392c3bca9c333acf.jpg",
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1383988",
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/3c8e8e16a7df1db3392c3bca9c333acf.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/9a10573dde3b7437194bd217d5586d16.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/96caacd51976774ba469d3db18373e82.jpg"
+   ]
+  },
+  {
+   "n": 2,
+   "pueblo": "Roda de Barà",
+   "titulo": "Casa de 2 habitaciones",
+   "hab": 2,
+   "m2": 90,
+   "precio_eur_mes": 950,
+   "foto": "https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/16b4c0b9fd7c5e0ab7485459cd085dc0.jpg",
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-cataluna-tarragona/1369160",
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/16b4c0b9fd7c5e0ab7485459cd085dc0.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/a9ea0b72c2223194fbaf17ddb7c0fd12.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/e5eb65ed8a5a575d37ad80320b911ed8.jpg"
+   ]
+  },
+  {
+   "n": 3,
+   "pueblo": "Torredembarra (Clarà)",
+   "titulo": "Casa de 2 habitaciones",
+   "hab": 2,
+   "m2": 160,
+   "precio_eur_mes": 767,
+   "foto": "https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/4e4480d39b8754dfc48738608e5f550a.jpg",
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1371646",
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/4e4480d39b8754dfc48738608e5f550a.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/5c124a2d053d09e79bb202f5aa374cba.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/ce60505310f46e5469556e4b42a923e4.jpg"
+   ]
+  },
+  {
+   "n": 4,
+   "pueblo": "La Pobla de Montornès",
+   "titulo": "Casa de 3 habitaciones",
+   "hab": 3,
+   "m2": 109,
+   "precio_eur_mes": 900,
+   "foto": "https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/3dd928edf3102409c212d5d77383b9cb.jpg",
+   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1370252",
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/3dd928edf3102409c212d5d77383b9cb.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/fd66b1973a593f383adc6b6465bb6c48.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/bf7fac473d4d647bbce886faa6cfe121.jpg"
+   ]
+  }
+ ]
 }
