@@ -1,0 +1,77 @@
+{
+  "generado": "2026-07-14",
+  "autor": "DaBoss",
+  "criterios": {
+    "radio_min_coche": 30,
+    "centro": "Roda de Barà (Tarragona)",
+    "poblaciones": ["Roda de Barà", "Creixell", "Torredembarra", "Altafulla", "Calafell", "El Vendrell"],
+    "presupuesto_max_eur_mes": 1000,
+    "tipos": ["casa", "chalet", "adosado", "villa"],
+    "excluir": ["cuchitril", "lujo >1000eur", "temporada/vacacional"]
+  },
+  "fuentes": ["Nuroa", "casasenventaypisosalquiler", "Idealista", "Fotocasa"],
+  "nota_precios": "Bandas por pueblo; los portales cargan precios por JS (no scrapeable). Fotos verificadas una a una.",
+  "candidatas": [
+    {
+      "n": 1, "pueblo": "Roda de Barà", "titulo": "Chalet con jardín + barbacoa",
+      "estado": "Habitación luminosa y limpia (decor años 2000 pero cuidado). Jardín y barbacoa confirmados.",
+      "precio_band": "850-1000", "precio_moneda": "EUR/mes",
+      "foto": "https://pics.nuroa.com/chalet_luminoso_con_jardin_y_barbacoa_en_zona_residencial_de_roda_de_bara_2590002783763635884.jpg",
+      "link": "https://www.nuroa.es/alquiler/alquiler-roda-bara"
+    },
+    {
+      "n": 2, "pueblo": "Roda de Barà", "titulo": "Chalet clásico, fachada cuidada",
+      "estado": "Fachada pintada reciente, tejado entero, seto recortado. Move-in ready.",
+      "precio_band": "850-1000", "precio_moneda": "EUR/mes",
+      "foto": "https://pics.nuroa.com/chalet_roda_de_bera_7890005783590266673.jpg",
+      "link": "https://www.nuroa.es/alquiler/alquiler-roda-bara"
+    },
+    {
+      "n": 3, "pueblo": "Roda de Barà", "titulo": "Casa adosada · patio y barbacoa",
+      "estado": "Patio con comedor, barbacoa de obra, seto alto (privacidad). Rústico pero impecable.",
+      "precio_band": "850-1000", "precio_moneda": "EUR/mes",
+      "foto": "https://pics.nuroa.com/casa_adosada_alquiler_roda_de_bera_roda_de_bera_2700004778147579041.jpg",
+      "link": "https://www.nuroa.es/alquiler/alquiler-roda-bara"
+    },
+    {
+      "n": 4, "pueblo": "Calafell", "titulo": "Chalet en Segur de Calafell",
+      "estado": "Dos plantas, porches en arco, buganvilla florida y garaje. Sólido y bien cuidado.",
+      "precio_band": "850-1000", "precio_moneda": "EUR/mes",
+      "foto": "https://pics.nuroa.com/chalet_alquiler_calafell_segur_de_calafell_5000005782985416191.jpg",
+      "link": "https://www.nuroa.es/alquiler/alquiler-calafell"
+    },
+    {
+      "n": 5, "pueblo": "Calafell", "titulo": "Casa rústica Bellamar (Mas de la Mel)",
+      "estado": "Blanco mediterráneo, balcón de madera, parra y enredadera. Encanto real, bien mantenido.",
+      "precio_band": "850-1000", "precio_moneda": "EUR/mes",
+      "foto": "https://pics.nuroa.com/casa_alquiler_calafell_bellamar_mas_de_la_mel_2490004778147447930.jpg",
+      "link": "https://www.nuroa.es/alquiler/alquiler-calafell"
+    },
+    {
+      "n": 6, "pueblo": "Altafulla", "titulo": "Casa adosada · jardín y porche",
+      "estado": "Dos plantas, porche con comedor exterior, césped y buena privacidad. Confortable y limpio.",
+      "precio_band": "1000", "precio_moneda": "EUR/mes",
+      "precio_aviso": "Altafulla arranca en ~1.100 € — confirmar que no se pasa.",
+      "foto": "https://pics.nuroa.com/casa_adosada_alquiler_altafulla_altafulla_6880004781689159258.jpg",
+      "link": "https://www.nuroa.es/alquiler/alquiler-altafulla"
+    },
+    {
+      "n": 7, "pueblo": "El Vendrell", "titulo": "Chalet Bonavista · con piscina",
+      "estado": "Piscina azul, terraza y zona de barbacoa. Bien cuidado, vibra de casa de familia.",
+      "precio_band": "750-950", "precio_moneda": "EUR/mes",
+      "foto": "https://pics.nuroa.com/chalet_alquiler_el_vendrell_bonavista_2390003783590247580.jpg",
+      "link": "https://www.nuroa.es/alquiler/alquiler-el-vendrell"
+    },
+    {
+      "n": 8, "pueblo": "El Vendrell", "titulo": "Casa Mas Borràs · con piscina",
+      "estado": "Dos plantas, terraza amplia y piscina. Estructura sana, cero dejadez.",
+      "precio_band": "750-950", "precio_moneda": "EUR/mes",
+      "foto": "https://pics.nuroa.com/casa_alquiler_el_vendrell_mas_borras_el_nou_vendrell_7580004778147360656.jpg",
+      "link": "https://www.nuroa.es/alquiler/alquiler-el-vendrell"
+    }
+  ],
+  "descartadas_lujo": [
+    "Villa moderna con piscina en Altafulla (probable >1000 €/mes)",
+    "Casa de primera línea de mar en Altafulla (probable >1000 €/mes)"
+  ]
+}
