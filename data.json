@@ -1,85 +1,94 @@
 {
- "generado": "2026-07-14",
- "autor": "DaBoss",
- "fuente": "casasenventaypisosalquiler.es (precio y enlace en HTML plano, verificados)",
- "criterios": {
-  "radio_min_coche": 30,
-  "centro": "Roda de Barà (Tarragona)",
-  "presupuesto_max_eur_mes": 1000,
-  "tipos": [
-   "casa",
-   "chalet",
-   "adosado"
-  ],
-  "excluir": [
-   "pisos/apartamentos",
-   "temporada/vacacional",
-   ">1000 eur/mes",
-   "cuchitril",
-   "lujo"
-  ]
- },
- "nota_resultados": "En fuentes con datos exactos solo hay 4 casas de alquiler FIJO <=1000 eur/mes en el radio. Las otras 4 de la tanda anterior eran de temporada (uso turistico) y se descartan.",
  "candidatas": [
   {
-   "n": 1,
-   "pueblo": "Roda de Barà",
-   "titulo": "Casa de 2 habitaciones",
-   "hab": 2,
-   "m2": 65,
-   "precio_eur_mes": 900,
-   "foto": "https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/3c8e8e16a7df1db3392c3bca9c333acf.jpg",
-   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1383988",
+   "titulo": "Casa en alquiler: Nou Eixample Sud, Tarragona Capital",
+   "precio_eur_mes": 580,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/nou-eixample-sud-tarragona-capital/1309593",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/be335ef8a8d35ddf180de35bcf3c6815/66a730f5ce1eeefc41c7fe232f65a17c.jpg",
    "galeria": [
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/3c8e8e16a7df1db3392c3bca9c333acf.jpg",
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/9a10573dde3b7437194bd217d5586d16.jpg",
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/fc47ebb998202ad496572f95a0137be4/96caacd51976774ba469d3db18373e82.jpg"
-   ]
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/be335ef8a8d35ddf180de35bcf3c6815/66a730f5ce1eeefc41c7fe232f65a17c.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/be335ef8a8d35ddf180de35bcf3c6815/82017c5bbad911e2a3b2aec9aaf67ca3.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/be335ef8a8d35ddf180de35bcf3c6815/1a2ea01b631edcf7efda2abbcf11230e.jpg"
+   ],
+   "pueblo": "Tarragona N.E.",
+   "dist": "Tarragona N.E. · ~25-30 min (borde)",
+   "hab": null,
+   "m2": 38
   },
   {
-   "n": 2,
-   "pueblo": "Roda de Barà",
-   "titulo": "Casa de 2 habitaciones",
-   "hab": 2,
-   "m2": 90,
-   "precio_eur_mes": 950,
-   "foto": "https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/16b4c0b9fd7c5e0ab7485459cd085dc0.jpg",
-   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-cataluna-tarragona/1369160",
+   "titulo": "Casa en alquiler de 3 habitaciones en La Bisbal del Penedès, Tarragona",
+   "precio_eur_mes": 1050,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/3-hab-la-bisbal-del-penedes-tarragona/1383910",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/3657f9f298c3b391502c564436ad8aa7/b6588c71a2513b2deec5916553467c7a.jpg",
    "galeria": [
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/16b4c0b9fd7c5e0ab7485459cd085dc0.jpg",
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/a9ea0b72c2223194fbaf17ddb7c0fd12.jpg",
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/84b454c9a84bfa7f339a47a244da0a59/e5eb65ed8a5a575d37ad80320b911ed8.jpg"
-   ]
-  },
-  {
-   "n": 3,
-   "pueblo": "Torredembarra (Clarà)",
-   "titulo": "Casa de 2 habitaciones",
-   "hab": 2,
-   "m2": 160,
-   "precio_eur_mes": 767,
-   "foto": "https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/4e4480d39b8754dfc48738608e5f550a.jpg",
-   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/2-hab-comaruga-platja-el-vendrell/1371646",
-   "galeria": [
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/4e4480d39b8754dfc48738608e5f550a.jpg",
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/5c124a2d053d09e79bb202f5aa374cba.jpg",
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/54bfc5f435f40db88a56279a8e0dcdf0/ce60505310f46e5469556e4b42a923e4.jpg"
-   ]
-  },
-  {
-   "n": 4,
-   "pueblo": "La Pobla de Montornès",
-   "titulo": "Casa de 3 habitaciones",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/3657f9f298c3b391502c564436ad8aa7/b6588c71a2513b2deec5916553467c7a.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/3657f9f298c3b391502c564436ad8aa7/3d849c1b0a58833874d9cbdf91b59010.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/3657f9f298c3b391502c564436ad8aa7/8517c90f0799a2132124f9dadd56be22.jpg"
+   ],
+   "pueblo": "La Bisbal del Penedès",
+   "dist": "La Bisbal del Penedès · ~30-35 min (borde)",
    "hab": 3,
-   "m2": 109,
-   "precio_eur_mes": 900,
-   "foto": "https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/3dd928edf3102409c212d5d77383b9cb.jpg",
-   "link": "https://casasenventaypisosalquiler.es/vivienda/pisos-alquiler/3-hab-cataluna-tarragona/1370252",
+   "m2": 122
+  },
+  {
+   "titulo": "Casa en alquiler: Vilarodona, Tarragona",
+   "precio_eur_mes": 800,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/vilarodona-tarragona/1325873",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/3417a209db76c3ecef4e933bbb888f42/d3f9741141903090a0edc10715e05b40.jpg",
    "galeria": [
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/3dd928edf3102409c212d5d77383b9cb.jpg",
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/fd66b1973a593f383adc6b6465bb6c48.jpg",
-    "https://casasypisos.s3.eu-south-2.amazonaws.com/b67cc7c122aeb08f2ad7d8917757a625/bf7fac473d4d647bbce886faa6cfe121.jpg"
-   ]
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/3417a209db76c3ecef4e933bbb888f42/d3f9741141903090a0edc10715e05b40.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/3417a209db76c3ecef4e933bbb888f42/7d62dfdad149da3e54691a0fc0d9db5f.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/3417a209db76c3ecef4e933bbb888f42/79463e82b9f8d3fb2934aaa2f9db82af.jpg"
+   ],
+   "pueblo": "Vilarodona",
+   "dist": "Vilarodona · ~5 min",
+   "hab": null,
+   "m2": 280
+  },
+  {
+   "titulo": "Casa en alquiler de 2 habitaciones: Vilaverd, Tarragona",
+   "precio_eur_mes": 800,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/2-hab-vilaverd-tarragona/1283008",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/01ec8e603dff0777c50f5d4064ba45a1/19da015a0a6090194088438bf802c6ef.jpg",
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/01ec8e603dff0777c50f5d4064ba45a1/19da015a0a6090194088438bf802c6ef.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/01ec8e603dff0777c50f5d4064ba45a1/eb756f85ad18c8f0470e3b4e069eb142.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/01ec8e603dff0777c50f5d4064ba45a1/0641aab4e5c69717c60f7c0d8eadeb94.jpg"
+   ],
+   "pueblo": "Vilaverd",
+   "dist": "Vilaverd · ~8 min",
+   "hab": 2,
+   "m2": 167
+  },
+  {
+   "titulo": "Casa en alquiler de 3 habitaciones en Cataluña, Tarragona",
+   "precio_eur_mes": 750,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/3-hab-cataluna-tarragona/1292340",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/1e5911f580f46e7746e58ee5bccc21ef/fba9a07d8bb8e9f59a6bdac3433261d2.jpg",
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/1e5911f580f46e7746e58ee5bccc21ef/fba9a07d8bb8e9f59a6bdac3433261d2.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/1e5911f580f46e7746e58ee5bccc21ef/6bd631ba2724507287f6139ed0372dab.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/1e5911f580f46e7746e58ee5bccc21ef/2044cea8ec9a33910920d8d8e933bfaa.jpg"
+   ],
+   "pueblo": "Vilaverd area",
+   "dist": "Vilaverd area · ~10 min (ubicación por confirmar)",
+   "hab": 3,
+   "m2": 130
+  },
+  {
+   "titulo": "Casa de 3 habitaciones en alquiler en Poble, Montroig del Camp",
+   "precio_eur_mes": 867,
+   "link": "https://casasenventaypisosalquiler.es/vivienda/casas-alquiler/3-hab-poble-montroig-del-camp/1372111",
+   "img": "https://casasypisos.s3.eu-south-2.amazonaws.com/bd191cc2047132b01e8d5ac65a3302d7/88d56a8495cfb72d164e1d7a5eae0ec7.jpg",
+   "galeria": [
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/bd191cc2047132b01e8d5ac65a3302d7/88d56a8495cfb72d164e1d7a5eae0ec7.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/bd191cc2047132b01e8d5ac65a3302d7/b7fa0b27aac80a56fb80b847f784f32f.jpg",
+    "https://casasypisos.s3.eu-south-2.amazonaws.com/bd191cc2047132b01e8d5ac65a3302d7/0ee2ec0dcdb73589bd4eff98bbe1c4b1.jpg"
+   ],
+   "pueblo": "Montroig del Camp",
+   "dist": "Montroig del Camp · ~30-35 min (borde)",
+   "hab": 3,
+   "m2": 97
   }
  ]
 }
